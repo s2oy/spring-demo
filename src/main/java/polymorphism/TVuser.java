@@ -11,8 +11,8 @@ public class TVuser {
 
         //2. Spring 컨테이너로부터 필요한 객체를 요청 (Look up)한다.
         tv.powerOn();
-        tv.volumeDown();
         tv.volumeUp();
+        tv.volumeDown();
         tv.powerOff();
 
         //3. spring container 종료
